@@ -1,0 +1,160 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 30px;
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+.image-box{
+    display:flex;
+
+}
+.home_img{
+    width: 520px;
+    height: 520px;
+   
+    margin-top: 50px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+.wrapper{
+    height: 90vh;
+    background-color: rgb(151, 151, 151);
+
+}
+.home_logo{
+    width: 300px;
+    height: 300px;
+    margin-top: 460px;
+    margin-left: 200px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 240px;
+    width: 500px;
+    margin-left: 30px;
+}
+.home_name{
+ font-size: 30px;
+}
+.home_heding{
+    font-size: 40px;
+}
+.home_hire{
+    font-size:30px ;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+.contect1{
+    font-size: 30px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.home_who{
+    font-size:30px ;
+    background-color: purple;
+    color: aliceblue;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 30px;
+}
+.skils-img{
+    width: 70px;
+    height: 70px;
+   
+}
+.skils-imgs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+
+}
+.ikon-img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+.skil-font{
+    font-size: 50px;
+    display: flex;
+    margin-left: 50px;
+}
+.icon-img2{
+    display: flex;
+    margin-top: 40px;
+}
+.icon-img3{
+    display: flex;
+    margin-top: 40px;
+}
+.icon-img4{
+    display: flex;
+    margin-top: 40px;
+}
+.contents1{
+    display: flex;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 145px;
+}
+.contents2{
+    display: flex;
+    font-size: 50px;
+    margin-left: 40px;
+  margin-top: 40px;
+
+}
+
+.contents3{
+    display: flex;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.contents4{
+    display: flex;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.skils-img1{
+    width: 100px;
+    height: 100px;
+}
+.skils-img2{
+    width: 80px;
+    height: 100px;
+    margin-left: 50px;
+}
+.skils-img3{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    padding-top: 0%;
+}
+.skils-img4{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.content-skils{
+    margin-top:40px;
+}
