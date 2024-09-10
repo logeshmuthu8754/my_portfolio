@@ -166,12 +166,12 @@ a{
 .contact-insta-img{
     width: 80px;
     height: 80px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .contact-map-img{
     width: 80px;
     height: 80px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .contact-font{
     font-size: 50px;
@@ -183,4 +183,20 @@ a{
     flex-direction: column;
    margin-left: 150px;
    margin-top: 100px;
+}
+.contact-content{
+   
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+.content-contact{
+    font-size: 50px;
+}
+.contact-logo{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
 }
