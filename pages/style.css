@@ -193,7 +193,9 @@ a{
 }
 .content-contact{
     font-size: 50px;
+    color: black;
 }
+
 .contact-logo{
     display: flex;
     margin-left: 200px;
