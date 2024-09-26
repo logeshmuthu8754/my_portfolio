@@ -11,6 +11,7 @@ nav{
     padding: 30px;
     font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -85,8 +86,10 @@ a{
 }
 .skils-imgs{
     display: flex;
-    flex-direction: row;
-    margin-top: 250px;
+    flex-direction:row;
+    margin-top: 200px;
+
+justify-content: space-around;
 
 }
 .ikon-img{
@@ -118,7 +121,7 @@ a{
     display: flex;
     font-size: 50px;
     margin-left: 40px;
-    margin-top: 145px;
+   
 }
 .contents2{
     display: flex;
@@ -141,27 +144,30 @@ a{
     margin-bottom: 30px;
 }
 .skils-img1{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+  
 }
 .skils-img2{
-    width: 80px;
-    height: 100px;
+    width: 160px;
+    height: 200px;
     margin-left: 50px;
 }
 .skils-img3{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-left: 50px;
     padding-top: 0%;
 }
 .skils-img4{
-    width: 100px;
-    height: 100px;
-    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+  padding-top: 0%;
+  
 }
 .content-skils{
-    margin-top:40px;
+    margin-top:145px;
 }
 .contact-mail-img{
     width: 80px;
@@ -216,4 +222,66 @@ a{
     border-radius: 100px;
     color: rgb(249, 248, 248);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .wrapper{
+        background-color: aqua;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+       margin-left: 0%;
+        justify-content: space-around;
+        gap: 0px;
+       
+        
+       
+        border-bottom: 5px solid  rgb(80, 244, 159) ;
+
+    }
+    .font-coller{
+        font-size: 20px;
+    }
+    .coller{
+        font-size: 20px;
+    }
+    .image-box{
+        flex-direction: column;
+    }
+    .home_logo{
+        display: none;
+    }
+    .home_img{
+        width: 400px;
+        height: 400px;
+        margin-top: 30px;
+        margin-bottom: 0%;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 0%;
+    }
+    .content{
+        margin-top:40px;
+        height: 50px;
+        margin-left: 0%;
+    }
+    .home_name{
+        font-size: 25px;
+       }
+       .home_heding{
+           font-size: 30px;
+       }
+       .home_hire{
+       font-size: 25px;
+       }
+       .wrapper{
+        width: 100%;
+       }
 }
