@@ -333,14 +333,14 @@ justify-content: space-around;
         display: none;
     }
     .contact-img-logo{
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .contact-content{
         font-size: 20px;
         margin-top: 0%;
         position :relative;
         bottom: 310px;
-        left: 40px;
+        left: 25px;
     }
     .content-contact{
         font-size: 30px;
