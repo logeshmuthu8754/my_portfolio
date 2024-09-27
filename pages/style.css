@@ -37,7 +37,7 @@ a{
 .home_logo{
     width: 300px;
     height: 300px;
-    margin-top: 460px;
+    margin-top: 435px;
     margin-left: 200px;
 }
 .content{
@@ -88,7 +88,6 @@ a{
     display: flex;
     flex-direction:row;
     margin-top: 200px;
-    justify-content: space-around;
 
 justify-content: space-around;
 
@@ -238,13 +237,11 @@ justify-content: space-around;
         flex-direction: row;
         width: 100%;
        margin-left: 0%;
-        justify-content: space-around;
-        gap: 0px;
-       
-        
-       
+        justify-content:start;
+        gap: 20px;
+        margin: 0%;
         border-bottom: 5px solid  rgb(80, 244, 159) ;
-
+        padding: 15px;
     }
     .font-coller{
         font-size: 20px;
@@ -259,8 +256,8 @@ justify-content: space-around;
         display: none;
     }
     .home_img{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         margin-top: 30px;
         margin-bottom: 0%;
         align-items: center;
@@ -271,7 +268,7 @@ justify-content: space-around;
     .content{
         margin-top:40px;
         height: 50px;
-        margin-left: 0%;
+        margin-left: 8px;
     }
     .home_name{
         font-size: 25px;
@@ -284,5 +281,72 @@ justify-content: space-around;
        }
        .wrapper{
         width: 100%;
+        
        }
+       .content1{
+        margin-top: 0%;
+       }
+       .home_who{
+        font-size: 25px;
+       }
+       .home_name{
+        margin: 10px;
+       }
+       .contect1{
+        margin-top: 10px;
+       }
+       .skil-font{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 40px;
+       }
+       .skils-img1{
+        width: 50%;
+        
+        margin-right: 0px;
+        margin-left: 0%;
+      
+    }
+    .skils-img2{
+        width:36%;
+       
+        margin-left: 0px;
+    }
+    .skils-img3{
+        width:50%;
+        
+        margin-left: 0px;
+        padding-top: 0%;
+    }
+    .skils-img4{
+        width:50%;
+       
+      padding-top: 0%;
+    }
+    .skils-imgs{
+        flex-wrap: wrap;
+        row-gap: 60px;
+        margin-top: 65px;
+    }
+    .image-box{
+        display: flex;
+    }
+    .contact-logo{
+        display: none;
+    }
+    .contact-img-logo{
+        margin-left: 20px;
+    }
+    .contact-content{
+        font-size: 20px;
+        margin-top: 0%;
+        position :relative;
+        bottom: 310px;
+        left: 40px;
+    }
+    .content-contact{
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+    
 }
