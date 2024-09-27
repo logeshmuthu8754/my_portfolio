@@ -62,7 +62,7 @@ a{
     padding: 10px;
 }
 .contect1{
-    font-size: 30px;
+    font-size: 25px;
 }
 .content1{
     display: flex;
@@ -229,9 +229,7 @@ justify-content: space-around;
         overflow-x: hidden;
         width:100%;
     }
-    .wrapper{
-        background-color: aqua;
-    }
+    
     nav{
         display: flex;
         flex-direction: row;
@@ -301,25 +299,25 @@ justify-content: space-around;
         font-size: 40px;
        }
        .skils-img1{
-        width: 50%;
+        width: 40%;
         
         margin-right: 0px;
         margin-left: 0%;
       
     }
     .skils-img2{
-        width:36%;
+        width:26%;
        
         margin-left: 0px;
     }
     .skils-img3{
-        width:50%;
+        width:40%;
         
         margin-left: 0px;
         padding-top: 0%;
     }
     .skils-img4{
-        width:50%;
+        width:40%;
        
       padding-top: 0%;
     }
