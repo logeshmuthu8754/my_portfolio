@@ -240,6 +240,7 @@ justify-content: space-around;
         margin: 0%;
         border-bottom: 5px solid  rgb(80, 244, 159) ;
         padding: 15px;
+        margin-left: 0%;
     }
     .font-coller{
         font-size: 20px;
@@ -279,6 +280,7 @@ justify-content: space-around;
        }
        .wrapper{
         width: 100%;
+        margin: 0%;
         
        }
        .content1{
