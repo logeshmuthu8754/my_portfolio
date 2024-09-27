@@ -346,5 +346,12 @@ justify-content: space-around;
         font-size: 30px;
         margin-bottom: 80px;
     }
-    
+    .contact-insta-img{
+        width: 70px;
+        height: 70px;
+    }
+    .contact-mail-img{
+        width: 70px;
+        height: 70px;
+    }
 }
